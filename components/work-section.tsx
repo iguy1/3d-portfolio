@@ -3,55 +3,47 @@ import { Github, ExternalLink } from "lucide-react"
 export default function WorkSection() {
   const projects = [
     {
-      title: "Personal Portfolio Website",
-      description:
-        "My first personal creation with many more exciting projects on the way! This website was created using React and showcases my development journey and projects.",
-      image: "/placeholder.svg?height=300&width=400",
-      technologies: ["React", "HTML5", "CSS3", "GitHub Pages"],
-      github: "https://github.com/iguy1/portfolio",
-      live: "https://iguy1.github.io/portfolio/",
-    },
-    {
       title: "Flappy Bird Clone",
+      image: "/projects/flappy-bird-clone.png",
       description:
         "This was my first ever created game. I used Unity Game Engine to build it. I have always been very passionate about video games since I was a kid. So this was meant to be cool to me to create a game myself.",
-      image: "/placeholder.svg?height=300&width=400",
       technologies: ["Unity", "C#", "Game Development"],
       github: "#",
       live: "https://iguy1.itch.io/flappy-clone",
     },
     {
       title: "Loan Amortization Calculator",
+      image: "/projects/loan-amortization-calculator.jpg",
       description:
         "This was a school final project for my TypeScript class, written using a React-like framework. It calculates loan payments and amortization schedules with an intuitive user interface.",
-      image: "/placeholder.svg?height=300&width=400",
       technologies: ["TypeScript", "React", "Financial Calculations"],
       github: "#",
       live: "https://ud-f24-cisc181.github.io/final-project-phase-2-iguy1/",
     },
     {
       title: "Professional Society of Computing",
+      // No image in folder, will use placeholder
+      image: "/projects/cslub.jpg",
       description:
         "I created this React application for a school club I recently joined. It provides an easy-to-navigate webpage for current members and people interested in joining.",
-      image: "/placeholder.svg?height=300&width=400",
       technologies: ["React", "TypeScript", "Web Development"],
       github: "#",
       live: "https://iguy1.github.io/compsciclub/",
     },
     {
       title: "Mental Health App",
+      image: "/projects/mental-health-app.png",
       description:
         "A hackathon project focused on mental health and wellness, providing tools and resources for users to manage their mental well-being. Built with modern web technologies.",
-      image: "/placeholder.svg?height=300&width=400",
       technologies: ["React", "TypeScript", "Health Tech"],
       github: "#",
       live: "https://sprightly-starburst-efc9fc.netlify.app/",
     },
     {
       title: "GameHub",
+      image: "/projects/gamehub.jpg",
       description:
         "A comprehensive gaming platform that showcases various games and gaming resources. Built with React and modern web technologies for an engaging user experience.",
-      image: "/placeholder.svg?height=300&width=400",
       technologies: ["React", "TypeScript", "Gaming"],
       github: "#",
       live: "https://iguy1.github.io/gamehub/",
@@ -79,9 +71,12 @@ export default function WorkSection() {
             >
               <div className="relative overflow-hidden">
                 <img
-                  src={project.image || "/placeholder.svg"}
+                  src={project.image}
                   alt={project.title}
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = "/placeholder.svg";
+                  }}
                 />
                 <div className="absolute top-4 right-4 flex space-x-2">
                   {project.github !== "#" && (
