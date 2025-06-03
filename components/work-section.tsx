@@ -23,7 +23,7 @@ export default function WorkSection() {
     {
       title: "Professional Society of Computing",
       // No image in folder, will use placeholder
-      image: "/projects/cslub.jpg",
+      image: "/projects/csclub.jpg",
       description:
         "I created this React application for a school club I recently joined. It provides an easy-to-navigate webpage for current members and people interested in joining.",
       technologies: ["React", "TypeScript", "Web Development"],
