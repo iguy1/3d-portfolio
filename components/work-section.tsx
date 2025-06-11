@@ -47,6 +47,14 @@ export default function WorkSection() {
       technologies: ["React", "TypeScript", "Gaming"],
       github: "#",
       live: "https://iguy1.github.io/gamehub/",
+    }, {
+      title: "Interdimensional Cable",
+      image: "/projects/intercable.jpg",
+      description:
+        "A fun project inspired by the 'Interdimensional Cable' from Rick and Morty, showcasing a collection of fictional TV channels and shows. Google Veo was used for creating each video. Built with React and TypeScript.",
+      technologies: ["React", "TypeScript", "Gaming"],
+      github: "#",
+      live: "https://interdemensional-cable.vercel.app/",
     },
   ]
 
