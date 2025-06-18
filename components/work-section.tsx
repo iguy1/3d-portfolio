@@ -12,6 +12,24 @@ export default function WorkSection() {
       live: "https://iguy1.itch.io/flappy-clone",
     },
     {
+      title: "CLG True Solutions",
+      image: "/projects/clg-hero-final.png",
+      description:
+        "I’m currently developing a full-featured web application for CLG True Solutions, a private mental health practice. The application includes secure online appointment booking, payment processing, and a Gemini-powered chatbot to assist users with general inquiries. Built with React, TypeScript, and Supabase, this project demonstrates my ability to create modern, scalable web apps tailored for real clients. Though still in development, it is featured in my portfolio to showcase both its current functionality and ongoing progress.",
+      technologies: ["React", "TypeScript", "Google Veo", "Entertainment"],
+      github: "#",
+      live: "https://v0-clg-true-solutions-app.vercel.app/",
+    },
+    {
+      title: "Interdimensional Cable",
+      image: "/projects/intercable.jpg",
+      description:
+        "A fun project inspired by the 'Interdimensional Cable' from Rick and Morty, showcasing a collection of fictional TV channels and shows. Google Veo was used for creating each video. Built with React and TypeScript.",
+      technologies: ["React", "TypeScript", "Google Veo", "Entertainment"],
+      github: "#",
+      live: "https://interdemensional-cable.vercel.app/",
+    },
+    {
       title: "Loan Amortization Calculator",
       image: "/projects/loan-amortization-calculator.jpg",
       description:
@@ -47,15 +65,7 @@ export default function WorkSection() {
       technologies: ["React", "TypeScript", "Gaming"],
       github: "#",
       live: "https://iguy1.github.io/gamehub/",
-    }, {
-      title: "Interdimensional Cable",
-      image: "/projects/intercable.jpg",
-      description:
-        "A fun project inspired by the 'Interdimensional Cable' from Rick and Morty, showcasing a collection of fictional TV channels and shows. Google Veo was used for creating each video. Built with React and TypeScript.",
-      technologies: ["React", "TypeScript", "Google Veo", "Entertainment"],
-      github: "#",
-      live: "https://interdemensional-cable.vercel.app/",
-    },
+    }, 
   ]
 
   return (
