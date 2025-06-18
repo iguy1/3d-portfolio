@@ -5,8 +5,7 @@ export default function WorkSection() {
     {
       title: "Flappy Bird Clone",
       image: "/projects/flappy-bird-clone.png",
-      description:
-        "This was my first ever created game. I used Unity Game Engine to build it. I have always been very passionate about video games since I was a kid. So this was meant to be cool to me to create a game myself.",
+      description:"This was the first game I ever created, developed using the Unity game engine and scripted in C#. As someone who has been passionate about video games from a young age, this project was a meaningful milestone — allowing me to bring an interactive experience to life from scratch. The game reflects my early exploration into game development and serves as the foundation for future projects in this space.",
       technologies: ["Unity", "C#", "Game Development"],
       github: "#",
       live: "https://iguy1.itch.io/flappy-clone",
@@ -33,7 +32,7 @@ export default function WorkSection() {
       title: "Loan Amortization Calculator",
       image: "/projects/loan-amortization-calculator.jpg",
       description:
-        "This was a school final project for my TypeScript class, written using a React-like framework. It calculates loan payments and amortization schedules with an intuitive user interface.",
+        "This was a final project for my TypeScript course, where I built a loan payment calculator using a React-like framework. The application features an intuitive user interface that calculates loan payments and generates amortization schedules, helping users understand their loan repayment over time. This project highlights my proficiency with TypeScript and component-based UI development.",
       technologies: ["TypeScript", "React", "Financial Calculations"],
       github: "#",
       live: "https://ud-f24-cisc181.github.io/final-project-phase-2-iguy1/",
@@ -43,8 +42,8 @@ export default function WorkSection() {
       // No image in folder, will use placeholder
       image: "/projects/csclub.jpg",
       description:
-        "I created this React application for a school club I recently joined. It provides an easy-to-navigate webpage for current members and people interested in joining.",
-      technologies: ["React", "TypeScript", "Web Development"],
+        "I created this React application for a school club I recently joined. It provides an easy-to-navigate webpage for current members and people interested in joining. The site includes information about upcoming events, resources for learning programming, and a gallery showcasing past activities. Built with React and JavaScript, this project demonstrates my ability to create user-friendly web applications for community engagement.",
+      technologies: ["React", "JavaScript", "Web Development"],
       github: "#",
       live: "https://iguy1.github.io/compsciclub/",
     },
