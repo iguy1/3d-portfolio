@@ -15,9 +15,9 @@ export default function WorkSection() {
       image: "/projects/clg-hero-final.png",
       description:
         "I’m currently developing a full-featured web application for CLG True Solutions, a private mental health practice. The application includes secure online appointment booking, payment processing, and a Gemini-powered chatbot to assist users with general inquiries. Built with React, TypeScript, and Supabase, this project demonstrates my ability to create modern, scalable web apps tailored for real clients. Though still in development, it is featured in my portfolio to showcase both its current functionality and ongoing progress.",
-      technologies: ["React", "TypeScript", "Google Veo", "Entertainment"],
+      technologies: ["React", "TypeScript"],
       github: "#",
-      live: "https://v0-clg-true-solutions-app.vercel.app/",
+      live: "https://clg-true-solutions-khd2.vercel.app/",
     },
     {
       title: "Interdimensional Cable",
